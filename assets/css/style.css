@@ -349,3 +349,7 @@ img {
 .footer .info ul li {
   padding-bottom: 10px;
 }
+
+.footer .info img {
+  width: 80%;
+}
