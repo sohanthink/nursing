@@ -381,6 +381,10 @@ img {
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+  .col-6 {
+    padding: 0;
+  }
+
   /* common css */
   .section-padding {
     padding: 50px 10px;
@@ -437,7 +441,7 @@ img {
   }
 
   .services .icons {
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
   }
 
   .services .content {
