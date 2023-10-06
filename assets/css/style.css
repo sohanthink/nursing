@@ -195,6 +195,10 @@ img {
   --secondary-font: 'Gabarito', cursive;
 }
 
+.wd {
+  width: 30%;
+}
+
 .centered-div {
   display: flex;
   justify-content: center;
@@ -222,6 +226,7 @@ img {
 /* ==================================
 ======== banner css starts from here
 ================================== */
+
 
 .banner .verticle {
   height: 90vh;
@@ -522,7 +527,7 @@ img {
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width:576px) and (max-width: 767.98px) {
   .section-padding {
     padding: 50px 0px;
   }
@@ -554,7 +559,7 @@ img {
 }
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width:768px) and (max-width: 991.98px) {
   .banner .carousel-inner .banner_content h1 {
     font-size: 50px;
   }
@@ -593,7 +598,7 @@ img {
 }
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width:992px) and (max-width: 1199.98px) {
   .banner .carousel-inner .banner_content h1 {
     font-size: 60px;
   }
@@ -628,7 +633,7 @@ img {
 }
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+@media (min-width:1200px) and(max-width: 1399.98px) {
   .section-padding {
     padding: 75px;
   }
