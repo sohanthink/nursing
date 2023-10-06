@@ -227,6 +227,8 @@ img {
   height: 90vh;
   width: 100%;
   background-image: url(../images/banner/banner-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner .verticle .nai {
@@ -239,6 +241,8 @@ img {
   height: 90vh;
   width: 100%;
   background-image: url(../images/banner/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner .verticle2 .nai {
@@ -379,7 +383,7 @@ img {
 
   /* common css */
   .section-padding {
-    padding: 50px;
+    padding: 50px 10px;
   }
 
   .common-header {
@@ -397,6 +401,10 @@ img {
     flex-direction: column;
     align-items: center;
     background-color: var(--primary-color);
+  }
+
+  .navbar-brand {
+    margin-left: 15px;
   }
 
   .navbar-nav {
@@ -420,16 +428,49 @@ img {
   }
 
 
+  .about .content {
+    padding: 0 10px;
+  }
+
   .services .icons .content h3 {
-    font-size: 17px;
+    font-size: 13px;
+  }
+
+  .services .icons {
+    padding-top: 20px;
+  }
+
+  .services .content {
+    padding: 0 10px;
   }
 
   .team .team_content {
     margin-bottom: 20px;
   }
 
+  .team .members {
+    display: contents;
+  }
+
+  .team .content {
+    padding: 0 10px;
+  }
+
   .contact {
     padding-bottom: 50px;
+  }
+
+  .contact .picture {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact .contact_content h1 {
+    text-align: center;
+  }
+
+  .footer .info {
+    text-align: center;
   }
 
   .footer .info img {
